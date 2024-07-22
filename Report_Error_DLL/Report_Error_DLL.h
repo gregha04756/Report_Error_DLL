@@ -12,6 +12,6 @@
 
 #define MAX_LOADSTRING 100
 
-REPORT_ERROR_DLL_API int fnReport_Error_DLL(void);
+
 REPORT_ERROR_DLL_API void ReportError(DWORD dwError);
 REPORT_ERROR_DLL_API void ReportError(const char* pchError);
